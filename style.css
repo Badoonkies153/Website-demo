@@ -1,0 +1,802 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Oswald:wght@200..700&display=swap');
+
+
+
+*{
+    box-sizing:border-box;
+    box-sizing: inherit;
+}
+
+.Artic-Fox_Logo {
+   position: absolute;
+   top: 1rem;
+   left: 4rem;
+   width: 6.6rem; 
+   border: .2rem; 
+   border-style: solid;
+   border-color: #fff;
+   border-radius:  50%;
+   
+       
+}
+
+.Header-Banner {
+    
+    background-color: #264653;
+    width: 159.5rem;
+    margin-left: -.5rem;
+    margin-right: -1rem;
+    margin-top: -1rem;
+    position: relative;
+    bottom: 16px;
+    
+}
+
+.Artic-Fox_Daily {
+    font-family: Oswald;
+    font-size: 2rem;
+    text-align: center;
+    position: relative;
+    bottom: -2rem;
+    color:  #E9C46A;
+}
+
+.Artic-Fox_Sub {
+    font-family: Oswald;
+    font-size: 1.3rem;
+    text-align: center;
+    color: #E9C46A;
+}
+
+.Main-Nav {
+ position: relative;
+ bottom: -1rem;
+    
+}
+
+.Main-Nav ul{
+    font-family: EB Garamond;
+    background: #fff;
+    padding: 2rem;
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: center;
+    list-style: none;
+     
+    
+   
+}
+
+.Main-Nav a{
+    text-decoration: none;
+    background-color: #fff;
+    color:  #264653;
+    padding: 2rem;
+    
+     
+}
+
+.Main-Nav a:hover {
+    background-color: #2A9D8F;
+    transition: 0.5s;
+    color: #E9C46A;
+}
+
+.Main_Img {
+    
+    background: url(White.Fox.Main.Cropped.jpeg) no-repeat center center;
+    background-size: cover;
+    width: 159.5rem;
+    height: 33rem;
+    margin-left: -.5rem;
+    margin-right: -.5rem;
+    
+}
+
+.Main-Section_Container {
+  display: flex;
+  flex-direction: column;
+    
+}
+
+.Wolf-Dog-Volunteer {
+    
+    width: 10px;
+    
+}
+
+.item {
+    font-family: Oswald;
+    background-color: darkgray;
+    width: 20rem;
+    margin: 2rem;
+    height: 15rem;
+    margin-left: 25rem;
+    
+}
+
+.item-1 {
+    background-color: #E76F51;
+    font-size: 1.3rem; 
+    text-align: center;
+    color: #264653;
+    padding-top: 2rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.item-1_info {
+    margin-top: 2rem;
+    font-family: EB Garamond;
+    font-size: 1rem;
+    text-align: left;
+    
+}
+
+.item-2 {
+     background-color: #F4A261;
+     text-align: center;
+     font-size: 1.3rem;
+     color: #264653;
+     padding-top: 2rem;
+     padding-left: .5rem;
+     padding-right: .5rem;
+     height: 13rem;
+    
+}
+
+.item-2_info {
+    font-family: EB Garamond;
+    font-size: 1rem;
+    text-align: left;
+    margin-top: 2rem;
+    
+}
+.item-3 {
+     background-color: #E9C46A;
+     text-align: center;
+     font-size: 1.3rem;
+     color: #264653;
+     padding-top: 2rem;
+     padding-left: .5rem;
+     padding-right: .5rem;
+     height: 12rem; 
+    
+}
+
+.item-3_info {
+    font-family: EB Garamond;
+    font-size: 1rem;
+    text-align: left;
+    margin-top: 2rem;
+    
+}
+
+.item-4 {
+    background-color: #264653;
+    width: 76.3rem;
+    height: 3rem;
+    position:relative;
+    left: 40rem;
+    margin-right: 0;
+    bottom: 58rem;
+    font-size: 2rem;
+    color: #E9C46A;
+    text-align: center;
+    
+}
+
+.About_Us-Info {
+    font-family: EB Garamond;
+    color: black;
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+.Bottom-Images {
+    display: flex;
+    grid-gap: 5rem;
+    height: 20rem;
+    position: relative;
+    bottom: 3rem;
+    left: 25rem;
+    
+    
+}
+
+.Bottom-Images_1 {
+    border: .6rem;
+    border-style: solid;
+    border-color: #264653;
+    
+}
+
+.Bottom-Images_2 {
+    border: .6rem;
+    border-style: solid;
+    border-color: #264653;
+}
+
+.Bottom-Images_3 {
+    border: .6rem;
+    border-style: solid;
+    border-color: #264653;
+}
+
+.Bottom-Images_4 {
+    border: .6rem;
+    border-style: solid;
+    border-color: #264653;
+    
+}
+
+
+
+.Footer_Overlay {
+    background:  #264653;
+    width: 159.5rem;
+    margin-left: -.5rem;
+    position: relative;
+    bottom: -1rem;
+    display: flex;
+    grid-gap: 50rem;
+}
+
+.Social_Media {
+   font-family: Oswald;
+    font-size: 1.6rem;
+    text-align: center;
+    color: #E9C46A;
+    margin-left: 20rem;
+}
+
+.Contacts {
+    font-family: Oswald;
+    font-size: 2rem;
+    text-align: center;
+    color: #E9C46A;
+    margin-left: 15rem;
+}
+
+.Contacts_Info {
+    font-size: 1.6rem;
+    text-align: left;
+    font-family: EB Garamond;
+}
+
+.Social_Media a {
+    font-size: 1.4rem;
+    margin: .4rem;
+    background: #fff;
+    border-radius: 10rem;
+    padding: 1.3rem;
+    color: #2A9D8F;
+}
+
+.Social_Media a:hover {
+     background-color: #E76F51;
+     color: #E9C46A;
+     transition: .5s;
+    
+}
+
+.Contacts a{
+    
+    color: #E9C46A;
+}
+
+/*Need.Help*/
+.Need-Help_Container {
+   margin-left: 65rem; 
+    
+}
+
+.Orphaned_Wild-Help {
+    color: #FF3C15;
+    text-decoration-line: underline;
+    font-family: Oswald;
+}
+
+.Need-Help_Container1 {
+    position: relative;
+    bottom: 25rem;
+}
+
+.Need-Help_Container2 {
+    position: relative;
+    bottom: 35rem;
+}
+
+.Help-With-Captive {
+    color: #FF3C15;
+    text-decoration-line: underline;
+    font-family: Oswald;
+}
+
+.Non-Releasable {
+    position: relative;
+    
+}
+
+.Need-Help_Info {
+    position: relative;
+    bottom: 3.5rem;
+    
+}
+
+.Wild-Animal {
+    position: relative;
+    
+}
+
+.Wild_Animal-Image {
+    padding-right: .8rem;
+    width: 17rem;
+    height: 20rem;
+}
+
+.Non-Releasable_Animal {
+     padding-right: .8rem;
+    width: 17rem;
+    height: 20rem;
+}
+
+.Need-Help_Header {
+    font-size: 2rem;
+    font-family: Oswald;
+    background-color: #264653;
+    width: 17rem;
+    height: 28rem;
+    color: #E9C46A;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: center;
+    position: relative;
+    top: 3rem;
+    margin-left: 25rem;
+      
+}
+
+.Need_Help-Separater {
+    position: relative;
+    bottom: 12.3rem;
+    width: 159.5rem;
+    margin-left: -.5rem;
+    
+}
+
+.Need-Help_Header2 {
+    position: relative;
+    top: -6rem;
+    
+}
+
+.Wild-Animal-Info {
+    font-family: EB Garamond;
+    font-size: 1.2rem;
+}
+
+.Wild-Animal-Info a {
+    color: #008080;
+}
+
+.Wild-Animal-Info a:hover {
+    color: #E9C46A;
+    transition: 0.5s;
+}
+
+.Non-Releasable-Info {
+    font-family: EB Garamond;
+    font-size: 1.2rem;
+}
+
+.Non-Releasable-Info a {
+    color: #008080;
+}
+
+.Non-Releasable-Info a:hover {
+    color: #E9C46A;
+    transition: 0.5s;
+}
+
+/*Our.Resident*/
+
+.Totos_Story-section {
+   background: url(Resident.Toto.jpg) no-repeat center center;
+    background-size: contain;
+    width: 20rem;
+    height: 20rem;
+    margin-left: -.5rem;
+    position: relative;
+    top: 8rem;
+    left: 25.5rem;
+   
+}
+
+.Who_Is_This {
+    text-align: center;
+    position: relative;
+    z-index: -1;
+    bottom: 4rem;
+    margin-left: -5.6rem;
+    font-size: 2rem;
+    font-family: Oswald;
+    color: #E9C46A;
+    background: #264653;
+    width: 30rem;
+    height: 33rem;
+    border: .7rem;
+    border-color: rgba(0,0,0,0.2);
+    border-style: solid;
+ 
+}
+
+.Resident-Name {
+    text-align: center;
+    font-size: 2rem;
+    position: relative;
+    bottom: 16rem;
+    color: #E9C46A;
+    border: .4rem;
+    border-style: double;
+    border-color: #E9C46A;
+    width: 25rem;
+    right: 3rem;
+    background-color: rgba(255,255,255,0.1);
+   
+}
+
+.Toto-Subtitle {
+    font-size: 1.5rem;
+    
+}
+
+.RIP {
+    font-size: 1.2rem;
+}
+
+.Toto_Info {
+    margin-top: 23rem;
+    font-size: 1.2rem;
+    margin-left: 19.3rem;
+    font-family: EB Garamond;
+    
+}
+
+.Lulu_Story-section {
+   background: url(Resident.Lulu.jpg) no-repeat center center;
+    background-size: contain;
+    width: 20rem;
+    height: 20rem;
+    margin-left: -.5rem;
+    position: relative;
+    padding-top: -1rem;
+    top: 8rem;
+    left: 25.5rem;
+   
+}
+
+.Resident-Name2 {
+    text-align: center;
+    font-size: 2rem;
+    position: relative;
+    bottom: 13rem;
+    color: #E9C46A;
+    border: .4rem;
+    border-style: double;
+    border-color: #E9C46A;
+    width: 25rem;
+    right: 3rem;
+    background-color: rgba(255,255,255,0.1);
+   
+}
+
+
+.Lulu_Info {
+    font-size: 1.2rem;
+    font-family: EB Garamond;
+    margin-left: 19.3rem;
+    margin-top: 23rem;
+}
+
+/* Sponsorship */
+
+.Sponsorship_Top-Section {
+    display: flex;
+    font-family: Oswald;
+    font-size: 1rem;
+    grid-gap: 2rem;
+    margin-top: 4rem;
+    margin-left: 48.3rem;
+}
+
+.Sponsor-Header {
+    border: .3rem;
+    border-style: solid;
+    width: 30rem;
+    background-color: #264653;
+    color: #E9C46A;
+    font-size: 2rem;
+}
+
+.Sponsor-Header2 {
+    border: .3rem;
+    border-style: solid;
+    width: 40rem;
+    background-color: #264653;
+    color: #E9C46A;
+    font-size: 2rem;
+    
+}
+
+ .Sponsor-Info1 {
+    text-align: center;
+}
+
+.Sponsor-Info1_P {
+    font-family:  EB Garamond;
+    text-align: left;
+    color:  #264653;
+    margin-left: .2rem;
+}
+
+.Sponsor-Info2 {
+    text-align: center;
+    color:  #264653;
+}
+
+.Sponsor-Info2_List {
+    font-family:  EB Garamond;
+    text-align: left;
+    margin-left: -1.3rem;
+}
+
+.Sponsor-Info2_P {
+    font-family:  EB Garamond;
+    text-align: left;
+}
+
+.Primary-Header {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.Primary_Sponsors {
+    background-color: #E76F51;
+    height: 13rem;
+    
+}
+
+.Secondary-Header {
+    text-align: center;
+     font-size: 1.2rem;
+}
+
+.Secondary_Sponsors {
+    background-color: #F4A261;
+    height: 13rem;
+}
+
+.Prime_Second-Sponsor {
+    font-family: Oswald;
+    height: 16rem;
+    color:  #264653;
+    display: flex;
+    grid-gap: 7.1rem;
+    margin-left: 48.3rem;
+    margin-top: 3rem;
+    
+    
+}
+
+.Primary_Sponsors-List {
+    font-family: EB Garamond;
+    font-size: 1.2rem;
+     margin-right: 1rem;
+}
+
+.Secondary_Sponsors-List {
+    font-family: EB Garamond;
+    font-size: 1.2rem;
+      margin-right: 1rem;
+}
+
+
+.Sponsorship_Bottom-Section {
+    font-size: 1rem;
+    font-family: EB Garamond;
+    display: flex;
+    grid-gap: 2rem;
+    color:  #264653;
+}
+
+.Donation-Header {
+    border: .3rem;
+    border-style: solid;
+    font-family: Oswald;
+    font-size: 2rem;
+    background-color: #264653;
+    color: #E9C46A;
+    text-align: center;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    
+}
+
+.Donation_Info {
+    text-align: left;
+    
+}
+
+.Donation_Help {
+    margin-left: 48.3rem;
+    
+}
+
+.Send_Gift-Header {
+    border: .3rem;
+    border-style: solid;
+    font-family: Oswald;
+    font-size: 2rem;
+    background-color: #264653;
+    color: #E9C46A;
+    text-align: center;
+    width: 30rem;
+}
+
+.Location-Info {
+    font-size: 1.2rem;
+    text-decoration: underline;
+    color: #FF3C15;
+    
+}
+
+.Sponsor_Border {
+    position: relative;
+    top: 2.6rem;
+    margin-left: -.5rem;
+    width: 159.4rem;
+    
+}
+
+.Sponsor_Form-Section {
+    display: block;
+    font-family: EB Garamond;
+    margin-top: 6rem;
+    margin-left: 64.6rem;
+    font-size: 1rem;
+    
+}
+
+.Sponsor_Details-header {
+     border: .3rem;
+    border-style: solid;
+    font-family: Oswald;
+    font-size: 2rem;
+    background-color: #264653;
+    color: #E9C46A;
+    text-align: center;
+    width: 40rem;
+    
+    
+}
+
+.Sponsor-Form_Header {
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    font-family: Oswald;
+}
+
+.App_Form {
+    border: .3rem;
+    border-style: solid;
+    border-color: #E76F51;
+    border-radius: 4rem;
+    margin-top: 3rem;
+    margin-left: 72.3rem;
+    background: #E76F51;
+    width: 22.4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 3rem;
+    font-family: EB Garamond;
+}
+
+.Email_Mail {
+    display: grid;
+    grid-gap: .1rem;
+    width: 22.4rem;
+    
+}
+
+.Social_Option {
+    margin-top: .1rem;
+    word-spacing: .9rem;
+    
+}
+
+.Level {
+    width: 22.4rem;
+    border: solid thin;
+    border-color: #E76F51;
+    border-radius: 4rem;
+    padding: .3rem;
+    margin-left: -.4rem;
+}
+
+.Resident {
+    width: 22.4rem;
+    border: solid thin;
+    border-color: #E76F51;
+    border-radius: 4rem;
+    padding: .3rem;
+    margin-left: -.4rem;
+}
+
+.Additional_Notes {
+    width: 22rem;
+    border: solid thin;
+    border-color: #E76F51;
+    border-radius: 4rem;
+    padding: .3rem;
+    margin-left: -.3rem;
+    
+}
+
+.Full-name {
+    display: flex; 
+}
+
+.fname {
+    border: solid thin;
+    border-color: #E76F51;
+    border-radius: 4rem;
+    padding: .3rem
+    
+}
+
+.lname {
+    border: solid thin;
+    border-color: #E76F51;
+    border-radius: 4rem;
+    padding: .3rem
+    
+}
+
+.Email {
+    border: solid thin;
+    border-color: #E76F51;
+    border-radius: 4rem;
+    padding: .3rem
+    
+}
+
+.Mail {
+    border: solid thin;
+    border-color: #E76F51;
+    border-radius: 4rem;
+    padding: .3rem
+    
+}
+
+.User {
+    border: solid thin;
+    border-color: #E76F51;
+    border-radius: 4rem;
+    padding: .3rem
+    
+}
+
+.Submit_Reset-Section {
+    display: flex;
+    grid-gap: 1rem;
+}
+
+
